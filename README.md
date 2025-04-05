@@ -1,4 +1,5 @@
 # Med-Extract
+![image](https://github.com/user-attachments/assets/837560a3-41de-4956-8602-1bd03d1d7052)
 
 ## Introduction
 (add what was given)
