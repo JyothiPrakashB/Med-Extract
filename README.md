@@ -3,8 +3,28 @@
 ## Introduction
 (add what was given)
 
-##Directory structure
-(to be added)
+## Directory structure
+```
+Med-Extract/
+│
+├── Model testing/                      
+│   ├── multimodal_zephyr.py               
+│   ├── test_multimodal_zephyr.py          
+│   └── checkpoint_zephyr.pt  # THIS WILL BE SAVED AFTER RUNNING THE multimodal_zephyr.py SCRIPT              
+│
+├── data/                           
+│   ├── train.csv                        
+│   ├── val.csv                          
+│   ├── test.csv                  
+│   ├── Multimodal_images/  # UNZIP THE FILE PROVIDED VIA DRIVE LINK
+│       ├── cyanosis
+│       ├── dry scalp
+│       └── ...              
+│
+├── new_chat.py                 
+├── app.py                             
+└── require.txt                        
+```
 
 ## Runnig the files
 Environment setup:
